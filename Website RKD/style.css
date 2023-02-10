@@ -1,0 +1,137 @@
+.carousel-item {
+  height: 70vh;
+  min-height: 300px;
+  width: 100;
+  background: no-repeat scroll center scroll;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+section h2 {
+  text-align: center;
+  padding: 10px 1px;
+  color: #3a033e;
+  margin-bottom: 15px;
+}
+.services h2 {
+  color: #fff;
+}
+section h3 {
+  text-align: center;
+  padding: 10px 1px;
+  color: #3a033e;
+  margin-bottom: 15px;
+}
+body {
+  min-height: auto;
+}
+.services {
+  background-color: #53025a;
+  text-align: center;
+}
+.services .col {
+  padding-bottom: 15px;
+}
+.about p {
+  color: black;
+  word-spacing: 2px;
+  line-height: 25px;
+  text-align: center;
+}
+
+.about h2 {
+  text-align: center;
+}
+
+header ul li a {
+  background-color: #fff;
+}
+.catalogue p {
+  text-align: center;
+}
+section h1 {
+  text-align: center;
+  padding: 20px 1px;
+  color: #3a033e;
+  margin-bottom: 10px;
+}
+.contact .ct {
+  width: 24%;
+  padding: 20px;
+  text-align: center;
+  float: left;
+  color: #3a033e;
+}
+.contact .ct {
+  word-spacing: 2px;
+}
+footer {
+  padding-bottom: 3px;
+  background-color: #170218;
+}
+footer p {
+  padding-top: 20px;
+}
+.gallery {
+  background-color: #fff;
+  padding-top: 5rem;
+}
+.gallery .col {
+  padding-bottom: 15px;
+}
+.catalogue {
+  padding-top: 5rem;
+  background-size: 100%;
+  background-image: url(../img/hydrantCatalogue.jpeg);
+}
+.catalogue h2 {
+  color: #170218;
+}
+
+.kantor .carousel-item {
+  height: 90vh;
+  min-height: 300px;
+  width: 100;
+  background: no-repeat scroll center scroll;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+.kantor {
+  padding-bottom: 15px;
+}
+
+.col-md-4 .carousel-control-prev {
+  height: 29.5vh;
+  width: 1.5rem;
+  background-color: black;
+  background-size: 8px;
+}
+.col-md-4 .carousel-control-next {
+  height: 29.5vh;
+  width: 1.5rem;
+  background-color: black;
+  background-size: 8px;
+}
+.cst .container {
+  height: 50vh;
+}
+.navbar-brand {
+  margin-left: 5px;
+  margin-bottom: 2px;
+}
+.nav-item {
+  margin-bottom: 2px;
+}
+.gallery .card-text {
+  text-align: center;
+}
+
+@media screen and (max-width: 200px) {
+  .contact .ct {
+    width: 100%;
+    float: none;
+  }
+  .footer {
+    width: 100%;
+    float: none;
+  }
+}
